@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <!-- css -->
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome cdn link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div id="container">
+
+        <div class="navbar">
+            <img class="logo" src="./images/adarsh-high-resolution-logo-black-transparent.png" alt="image">
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class="fa-solid fa-bars"id="menuicon" ></i>
+                <i class="fa-solid fa-x" id="closeicon"></i>
+
+            </label>
+            <nav class="navbuts">
+               <a class="listitens links" href="#home" class="links">Home</a>
+               <a class="listitens links" href="#about" class="links">About</a>
+               <a class="listitens links" href="#skills" class="links">Skills</a>
+               <a class="listitens links" href="#contact" class="links">Contacts</a>
+            </nav>
+            
+        </div>
+        <!-- home -->
+        <section id = "home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__bounce" id="user">I am <span  id="name">Adarsh</span></h1>
+                <p>Hi this is my official portfolio web site where i share my work experiences in web development
+                </p>
+                <a href="./images/dd12-13_0 (1).pdf" id="download" download>Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="./images/img1.png" alt="" id="shape" class="group1">
+                <img src="./images/manstanding.png.png" alt="" id="avatar" class="group1">
+            </div>
+
+
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+
+            <div class="aboutbody">
+                <div  data-aos="zoom-out-right" class="aboutimage">
+                    <img class="img-about"
+                        src="./images/vecteezy_3d-male-character-sitting-on-a-sofa-and-working-on-a-laptop_24658980.png"
+                        alt="no image">
+                </div>
+                    <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, quidem asperiores. Tenetur
+                        quibusdam dicta perferendis maxime! Sed molestias ipsum quod doloremque, voluptas labore eum
+                        fugiat ullam neque recusandae illo? Aspernatur.</p>
+
+
+
+                    <div class="aboutinfo">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Adarsh</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8714393221</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>adarshsrajesh@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill -->
+         <section id="skills">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontents">
+                <div class="progressbars">
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercent">90%</span>
+                        <div class="basebar"></div>
+                        <div  data-aos="zoom-in-right" data-aos-duration="3000" class="htmlbar basebar"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercent">80%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="zoom-in-right" data-aos-duration="3000" class="cssbar basebar"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercent">80%</span>
+                        <div class="basebar"></div>
+                        <div  data-aos="zoom-in-right" data-aos-duration="3000" class="jsbar basebar"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="barhead">React</h3>
+                        <span class="barpercent">95%</span>
+                        <div class="basebar"></div>
+                        <div  data-aos="zoom-in-right" data-aos-duration="3000" class="reactbar basebar"></div>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="skillimage">
+                    <img width="75%" src="./images/skimg.png" alt="No Image">
+                </div>
+
+            </div>
+           
+
+         </section>
+         <!-- contact -->
+         <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+
+            <div class="iconcollection">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/r-adarsh4949/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-x-twitter brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/adarshsrajesh" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+            </div>
+
+         </section>
+
+         <!-- footer -->
+
+         <footer>
+            <p id="copyright"> &copy;My portfolio website - october 2024, all rights reserved to&reg;</p>
+            <div class="icon uparrow"><a href="#container" target="_blank"><i class="fa-solid fa-angle-up"></a></i></div>
+         </footer>
+
+    </div>
+
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
