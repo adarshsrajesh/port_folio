@@ -285,6 +285,65 @@ p{
 
 
 }
+.contactdetails{
+    
+    height:500px ;
+    margin-top: 20px;
+    background-color: purple;
+    border-radius: 20px;
+    color: white;
+
+    display:flex;
+    flex-direction: column;
+   
+
+}
+.contactdetails h1{
+    margin: 50px;
+
+    text-align: center;
+}
+.contactdetails label{
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-left: 50px;
+
+    text-align: left;
+
+}
+.contactdetails input{
+    width:25%;
+    margin-left: 50px;
+}
+.contactdetails textarea{
+
+    margin-left: 50px;
+    margin-right: 50px  ;
+
+
+}
+#submit{
+    margin-top: 40px;
+    padding: 10px;
+    width: 10%;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+   
+    margin-left: 45%;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#submit:hover{
+    transition-duration: 0.5s;
+    background-color:black;
+    color: white;
+
+}
+
 footer{
     margin-top: 8%;
 }
@@ -329,7 +388,7 @@ html{
 #closeicon{
     display: none;
 }
-@media (max-width:760px) {
+@media (max-width:992px) {
     
     /* .navbar{
         display: flex;
@@ -347,23 +406,28 @@ html{
     }
 
     nav{
+        
         position: absolute;
-        top: 100%;
-        left:0% ;
-        width: 100%;
+        top: 0%;
+        left:75% ;
+        width:25%;
+        height: 0;
         background-color:purple;
         backdrop-filter: blur(2px);
         z-index: 1;
-        display: none;
+    
+        display: block;
+        border-radius: 20px;
 
         
         /* display:none;    */
     }
     .links{
         color: white;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        display: flex;
+        margin-top: 40px;
+        margin-bottom: 40px;
+       
+        display: none;
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -410,8 +474,19 @@ html{
 
     #check:checked~nav{
 
-        display: block;
+        transition: 0.5s ease-in;
+        height: auto;
+        top: 80%;
+       
+        
+      
 
+        /* display: block; */
+
+    }
+    #check:checked~nav>.links{
+        
+        display: flex;
     }
     #check:checked~.icons #closeicon{
 
@@ -419,6 +494,7 @@ html{
 
     }
     #check:checked~.icons #menuicon{
+        
         
         display: none;
 
