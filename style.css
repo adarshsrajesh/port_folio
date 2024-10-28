@@ -394,7 +394,14 @@ html{
         display: flex;
         justify-content: center;
     }    */
-    
+    .contactdetails input{
+        width:65%;
+        margin-left: 50px;
+    }
+    #submit{
+        margin-left:35% ;
+        width:30%;
+    }
     .logo{
         
         width: 80px;
