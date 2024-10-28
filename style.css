@@ -410,7 +410,7 @@ html{
         position: absolute;
         top: 0%;
         left:75% ;
-        width:25%;
+        width:50%;
         height: 0;
         background-color:purple;
         backdrop-filter: blur(2px);
